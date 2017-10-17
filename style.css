@@ -1,0 +1,57 @@
+body {
+	background-color: slategrey;
+}
+
+h1 {
+	font-family: "Oswald";
+	color: white;
+	text-align:center;
+}
+
+#section1 {
+	margin-left:20%;
+	border: 2px solid red;
+	border-radius:50%;
+	width:25%;
+	padding-left:7%;
+	padding-top:7%;
+	padding-bottom:7%;
+}
+
+#section2 {
+	border:2px solid blue;
+	border-radius:50%;
+	margin-left:50%;
+	padding-left:7%;
+	margin-right:25%;
+	padding-top:7%;
+	padding-bottom:7%;
+}
+
+#clock {
+	text-align:center;
+	border: 2px solid yellow;
+	border-radius:100%;
+	width:250px;
+	height:250px;
+	padding-top:50px;
+	margin-top:5%;
+}
+
+#session-time {
+	padding-top:15%;
+}
+
+.break-minus-plus1, .break-minus-plus2, .session-minus-plus1, .session-minus-plus2, .breakDisplay,.sessionDisplay {
+	display:inline;
+	cursor:pointer;
+}
+
+#session-time {
+	font-size:2.5em;
+}
+
+h3 {
+	font-family: "Lobster";
+	text-align:center;
+}
